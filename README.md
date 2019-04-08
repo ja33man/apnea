@@ -40,5 +40,5 @@ We needed a validation against clinical practices (vital sign measurement by a n
 This repository is a mock-up of the steps that were discussed above.
 - [First notebook](code/1_Data_Preparation.ipynb) explores public dataset [from PhysioNet](https://physionet.org/physiobank/database/challenge/2018/) that can be used to build ML model for apnea detection.
 - In the [second notebook](code/2_Model_training.ipynb) a deep learning model #1 for binary classification is built and trained
-- Third notebook uses trained model to label different dataset #2 for apnea events
+- [Third notebook](code/3_Transfer.ipynb) uses trained model to label different dataset #2 for apnea events
 - And finally dataset #2 (using 1 signal out of 3) with new labels is used to train ML model #2 for apnea detection
